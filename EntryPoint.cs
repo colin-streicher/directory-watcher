@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 using DirectoryWatcher;
 
 IHost host = Host.CreateDefaultBuilder(args)
