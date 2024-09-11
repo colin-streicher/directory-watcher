@@ -12,9 +12,9 @@ public class Worker : BackgroundService
 {
     private readonly ILogger<Worker> _logger;
     
-    public string? WatchDirectory;
-    public string? UploadContainer;
-    public string? StorageAccountName;
+    private string? WatchDirectory;
+    private string? UploadContainer;
+    private string? StorageAccountName;
     public Worker(ILogger<Worker> logger)
     {
         _logger = logger;
